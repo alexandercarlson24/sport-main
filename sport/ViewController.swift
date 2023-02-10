@@ -27,8 +27,10 @@ class Events: Codable{
     var here: Bool
     var opp: String
     
-    init(date: String, type: Bool){
+    init(date: String, type: Bool, here: Bool, opp: String){
         self.date = date
         self.type = type
+        self.here = here
+        self.opp = opp
     }
 }
